@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    border: 1px solid black;
+    width: 75%;
+    margin: 3% auto;
+    height: fit-content;
+    background-color: rgba(137, 224, 200, 0.6);
+    box-shadow: 10px 20px 20px 10px rgba(3, 7, 6, 0.3);
+}
+
+.name {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 1%;
+    font-size: 30px;
+    margin: 3% 0;
+}

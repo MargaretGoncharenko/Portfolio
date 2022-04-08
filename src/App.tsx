@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Header} from "./Components/Header/Header";
 import {Introducing} from "./Components/Introducing/Introducing";
 import {MySkills} from "./Components/MySkills/MySkills";
 import {MyProjects} from "./Components/MyProjects/MyProjects";
 import "./App.css";
+import {RemoteWork} from "./Components/RemoteWork/RemoteWork";
+import {Contacts} from "./Components/Contacts/Contacts";
+import {Footer} from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -14,9 +16,9 @@ function App() {
      <Introducing/>
      <MySkills/>
      <MyProjects/>
-      <div>Block4(remote work)</div>
-      <div>Block5(Contacts)</div>
-      <div>Footer</div>
+      <RemoteWork/>
+      <Contacts/>
+      <Footer/>
     </div>
   );
 }

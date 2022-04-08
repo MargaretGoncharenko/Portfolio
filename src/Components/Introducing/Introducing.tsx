@@ -1,11 +1,12 @@
 import React from "react";
 import i from "./Introducing.module.css";
+import c from "./../common/styles/containerStyle.module.css"
 import photo from "./portfolio.jpg"
 
 export const Introducing = () => {
     return (
-        <div className={i.container}>
-            <div className={i.title}>About me</div>
+        <div className={c.container}>
+            <div className={c.name}>About me</div>
             <div className={i.introduction}>
                 <div className={i.block}>
                     <h2>Margaret Goncharenko</h2>
@@ -25,7 +26,7 @@ export const Introducing = () => {
                     </div>
 
                 </div>
-                <div><img src={photo} height={"280px"} /></div>
+                <div><img src={photo} className={i.image}/></div>
             </div>
         </div>
     )

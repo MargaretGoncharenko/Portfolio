@@ -1,0 +1,20 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.cover {
+    display: flex;
+    align-items: flex-start;
+    justify-content: stretch;
+    background-color: #f0f7fb;
+    padding: 10%;
+    margin: 10%;
+    border-radius: 90%;
+    box-shadow: 10px 20px 20px 10px rgba(3, 7, 6, 0.3);
+}
+
+.icon {
+    height: 60px;
+}

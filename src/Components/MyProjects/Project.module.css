@@ -1,0 +1,36 @@
+.block {
+    display: grid;
+    grid-gap: 20px;
+    height: fit-content;
+    width: 30%;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin: 2% 0;
+}
+
+.projectName {
+    display: grid;
+    justify-content: center;
+    font-family: "Malgun Gothic";
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.projectImage {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.view {
+    display: grid;
+    margin: 0 auto;
+}
+
+.text {
+    padding: 2px;
+    font-size: 17px;
+    line-height: 14px;
+    text-align: center;
+    font-weight: bold;
+}

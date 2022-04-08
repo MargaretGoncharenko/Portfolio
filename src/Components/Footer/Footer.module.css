@@ -1,0 +1,23 @@
+.block {
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fragment {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.name {
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.last {
+    margin: 0 auto;
+    padding-top: 15px;
+}
