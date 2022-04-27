@@ -22,9 +22,8 @@
     margin: 0 auto;
 }
 
-.view {
+button {
     display: grid;
-    margin: 0 auto;
 }
 
 .text {

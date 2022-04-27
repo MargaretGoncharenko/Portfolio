@@ -3,6 +3,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #0d0d0d;
+    background-color: rgba(13, 13, 13, 0.52);
     color: white;
 }

@@ -2,6 +2,7 @@
     display: grid;
     justify-content: center;
     justify-items: center;
+    margin-bottom: 5%;
 }
 
 .title {
@@ -10,7 +11,7 @@
     margin-bottom: 10%;
 }
 
-.btn {
-    width: fit-content;
-    margin-bottom: 15%;
-}
+/*button {*/
+/*    width: fit-content;*/
+/*    margin-bottom: 15%;*/
+/*}*/

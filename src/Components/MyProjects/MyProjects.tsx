@@ -8,6 +8,7 @@ export type ProjectPropsType = {
     id: string
     name: string
     description: string
+    link?:string
 }
 export const MyProjects = () => {
     let [projects, setProjects] = useState<Array<ProjectPropsType>>([
@@ -15,7 +16,7 @@ export const MyProjects = () => {
             id: v1(), name: "Social network", description: "Stack: SCSS, JavaScript, TypeScript, React, Redux,\n" +
                 "Redux thunk, Axios; Using TypeScript for best code\n" +
                 "control; Reusable components development; Refactoring,\n" +
-                "bug fixing."
+                "bug fixing.", link:"https://github.com/MargaretGoncharenko/Avis"
         },
         {
             id: v1(), name: "Todolist", description: "Stack: CSS, JavaScript, TypeScript, React, Redux, Material\n" +

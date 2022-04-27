@@ -1,0 +1,22 @@
+.square_btn {
+    display: flex;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+    color: #FFF;
+    background: black;
+    transition: .4s;
+    border: none;
+
+
+}
+
+.square_btn>span {
+    border-bottom: solid 2px black;
+}
+
+.square_btn:hover {
+    background: red;
+}

@@ -1,16 +1,15 @@
 .container {
-    border: 1px solid #20c997;
+    border: 1px solid #dad5d1;
     border-right: none;
-    padding: 12px 5%;
+    padding: 0.5% 5%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content:  space-around;
+    align-items: flex-start;
 }
 
 .part {
     margin: 4%;
-    color: #20c997;
+    color: #dad5d1;
     font-family: Stencil Std, fantasy;
     font-size: 20px;
-
 }

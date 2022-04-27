@@ -4,12 +4,13 @@
     width: 75%;
     margin: 3% auto;
     height: fit-content;
-    background-color: rgba(137, 224, 200, 0.6);
+    background-color: #dad5d1;
     box-shadow: 10px 20px 20px 10px rgba(3, 7, 6, 0.3);
 }
 
 .name {
-    border: 1px solid black;
+    border: 2px solid black;
+    border-left: none;
     width: fit-content;
     padding: 1%;
     font-size: 30px;

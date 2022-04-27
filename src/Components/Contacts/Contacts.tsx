@@ -36,7 +36,7 @@ export const Contacts = () => {
             id: v1(),
             name: "email",
             src: "dgfgr",
-            icon: "https://www.freepnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2.png"
+            icon: "https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png"
         },
         {id: v1(), name: "linkedIn", src: "dgfgr", icon: "https://cdn-icons-png.flaticon.com/512/145/145807.png"},
 
